@@ -1,0 +1,12 @@
+<Alloy>
+    <View id="mainView">
+        <View id="mainTopBar">
+            <View id="menuButton"/>
+        </View>
+<ScrollView showVerticalScrollIndicator="true" id="scrllViw">
+                <View id="pogled" >
+                <Label id="naslov">Moja predavanja</Label>                
+                </View>
+</ScrollView>
+    </View>
+</Alloy>

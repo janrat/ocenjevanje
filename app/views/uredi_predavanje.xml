@@ -1,0 +1,32 @@
+<Alloy>
+ <Window id="uredi_predavanje" class="container" center="center" onOpen="nalozi"> 
+ 	<Require type="widget" src="com.alcoapps.drawermenu" id="drawermenu"/>	
+  <ScrollView showVerticalScrollIndicator="true" id="scrllViw">  	
+  <View id="pogled" layout="vertical">  	  	
+   <!--naslov-->
+   <Label class="heading" center="center">Uredi predavanje</Label>
+   <!--ime-->
+   <Label class="menuitem" center="center">Ime predavanja:</Label>
+   <TextField width=Titanium.UI.FILL id="name" hintText="ime"></TextField>
+   <Label center="center">4-mestna koda:</Label>
+   <TextField width=Titanium.UI.FILL id="code" hintText="koda"></TextField>
+   <Label center="center">Opis predavanja:</Label>
+   <TextField width=Titanium.UI.FILL id="opis" hintText="opis"></TextField>
+   <Label center="center">Lokacija predavanja:</Label>
+   <TextField width=Titanium.UI.FILL id="lokacija" hintText="lokacija"></TextField>
+   <Label center="center">Čas predavanja:</Label>
+   <TextField width=Titanium.UI.FILL id="ura" hintText="čas"></TextField>
+   <Label center="center">Datum predavanja:</Label>
+   <TextField width=Titanium.UI.FILL id="datum" hintText="datum"></TextField>
+   <Button class="menuitem" width=Titanium.UI.FILL onClick="uredi">Uredi</Button>
+   
+   <Label top="20dp" width=Titanium.UI.FILL center="center">Dodaj vprašanje:</Label>
+   <TextField id="vprasanje" width=Titanium.UI.FILL hintText="vprašanje"></TextField>
+   <Button class="menuitem" width=Titanium.UI.FILL onClick="dodaj">Dodaj</Button>
+   <Label top="20dp" width=Titanium.UI.FILL center="center">Vprašanja:</Label>
+   <!--link meni-->
+   
+  </View>
+</ScrollView>
+ </Window>
+</Alloy>

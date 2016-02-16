@@ -1,0 +1,26 @@
+'#naslov': {
+	top:"30dp",
+	color: "#87A87D",
+ 	font:{fontSize: '28sp'},
+},
+'#pogled': {
+ backgroundImage: '/images/ozadje.png'
+ //backgroundColor: "orange"
+},
+"#mainView":{
+	layout: 'vertical',
+	backgroundColor: '#cacaca'
+},
+".container" : {
+  
+}
+"#mainTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#5B96B2',
+	layout: 'horizontal'
+},
+"#menuButton":{
+	width: "60dp",
+	height: "60dp"
+}

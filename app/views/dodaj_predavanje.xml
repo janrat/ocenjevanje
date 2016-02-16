@@ -1,0 +1,30 @@
+<Alloy>
+    <View id="mainView">
+        <View id="mainTopBar">
+            <View id="menuButton"></View>
+        </View>
+				<ScrollView showVerticalScrollIndicator="true" scrollType="vertical" id="scrllViw"> 
+                <View id="pogled" >
+                	<Label id="naslov">Dodaj predavanje</Label> 
+                	            
+					<!--ime-->
+					<Label top="75dp"  center="center">Ime predavanja:</Label>
+					<TextField width=Titanium.UI.FILL top="100dp" id="name" hintText="ime" color="white"></TextField>
+					<Label top="150dp" center="center">Opis predavanja:</Label>
+					<TextField width=Titanium.UI.FILL top="175dp" id="opis" hintText="opis" color="white"></TextField>
+					<Label top="225dp" center="center">Lokacija predavanja:</Label>
+					<TextField width=Titanium.UI.FILL top="250dp" id="lokacija" hintText="lokacija" color="white"></TextField>
+					<Label top="300dp" center="center">Čas predavanja:</Label>
+					<TextField width=Titanium.UI.FILL top="325dp" id="ura" hintText="čas" color="white"></TextField>
+					<Label top="375dp" center="center">Datum predavanja:</Label>
+					<TextField width=Titanium.UI.FILL top="400dp" id="datum" hintText="datum" color="white"></TextField>
+					<Label top="450dp" center="center">Koda predavanja:</Label>
+					<TextField width=Titanium.UI.FILL top="475dp" id="code" hintText="code" color="white"></TextField>
+					<!--objava-->
+					<Button width=Titanium.UI.FILL top="525dp" onClick="dodaj">Dodaj</Button>
+					<!--link meni-->
+					 			
+                </View>
+				</ScrollView>
+    </View>
+</Alloy>

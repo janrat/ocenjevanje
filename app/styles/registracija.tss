@@ -1,0 +1,22 @@
+"Label": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#87A87D", // black
+    font:{fontSize: '20sp'},
+    transform: Alloy.Globals.rotateLeft // value is defined in the alloy.js file      
+}, 
+
+'View': {
+ backgroundImage: '/images/ozadje.png'
+ //backgroundColor: "orange"
+},
+
+'Button': {
+ backgroundColor: "#9933ff",
+ backgroundSelectedColor: "#87A87D"
+},
+
+'.heading': {
+ color: "#87A87D",
+ font:{fontSize: '28sp'},
+}

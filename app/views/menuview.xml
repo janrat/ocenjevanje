@@ -1,0 +1,38 @@
+<Alloy>
+	<View id="menuView">
+		<View id="menuTopBar">
+		<Label id="uporabnik"></Label>
+		</View>
+		<TableView class="menuTable" id="menuTable">
+			<TableViewRow class="tableRow" id="row1">
+				<View id="rowContainer">
+					<View id="rowPredavanja" class="rowIcon"/><Label id="rowLabel" class="rowLabel">Moja predavanja</Label>
+				</View>
+			</TableViewRow>
+			
+			<TableViewRow class="tableRow" id="row2">
+				<View id="rowContainer">
+					<View id="rowPrijava" class="rowIcon"/><Label id="rowLabel" class="rowLabel">Prijavi na predavanje</Label>
+				</View>
+			</TableViewRow>
+			
+			<TableViewRow class="tableRow" id="row3">
+				<View id="rowContainer">
+					<View id="rowDodaj" class="rowIcon"/><Label id="rowLabel" class="rowLabel">Dodaj predavanja</Label>
+				</View>
+			</TableViewRow>
+			
+			<TableViewRow class="tableRow" id="row4">
+				<View id="rowContainer">
+					<View id="rowUredi" class="rowIcon"/><Label id="rowLabel" class="rowLabel">Uredi predavanja</Label>
+				</View>
+			</TableViewRow>
+			
+			<TableViewRow class="tableRow" id="row5">
+				<View id="rowContainer">
+					<View id="rowOdjava" class="rowIcon"/><Label id="rowLabel" class="rowLabel">Odjava</Label>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</View>
+</Alloy>

@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="index" name="index" class="container" center="center" onOpen="loginOpened">
+		<View layout="vertical">
+			<!--naslov-->
+			<Label class="heading" center="center">Oceni.me</Label>
+			<!--uporabniško ime-->
+			<Label center="center" top="20">Uporabniško ime:</Label>
+			<TextField width=Titanium.UI.FILL id="username" name="username" hintText="Uporabniško ime" color="white"></TextField>
+			<!--geslo-->
+			<Label center="center" top="20">Geslo:</Label>
+			<TextField width=Titanium.UI.FILL id="password" name="password" hintText="Geslo" passwordMask="true" color="white"></TextField>
+			<!--prijava-->
+			<Button width=Titanium.UI.FILL top="20" onClick="nextScreenLogin">Prijavi</Button>
+			<!--link registracija-->
+			<Button width=Titanium.UI.FILL top="20" center="center" onClick="naregistracijo">Registracija</Button>
+		</View>
+	</Window>
+</Alloy>

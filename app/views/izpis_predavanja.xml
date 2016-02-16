@@ -1,0 +1,26 @@
+<Alloy>
+ <Window id="izpis_predavanja" class="container" center="center" onOpen="nalozi">
+  <ScrollView showVerticalScrollIndicator="true" id="scrllViw">
+  <View id="pogled" layout="vertical">
+   <!--naslov-->
+   <Label class="heading" center="center">O predavanju</Label>
+   <Button center="center" onClick="osvezi">Osveži</Button>
+   <!--ime-->
+   <Label class="menuitem" center="center">Ime predavanja:</Label>
+   <TextField editable="false" width=Titanium.UI.FILL id="name" hintText="ime"></TextField>
+   <Label center="center">4-mestna koda:</Label>
+   <TextField editable="false" width=Titanium.UI.FILL id="code" hintText="koda"></TextField>
+   <Label center="center">Opis predavanja:</Label>
+   <TextField editable="false" width=Titanium.UI.FILL id="opis" hintText="opis"></TextField>
+   <Label center="center">Lokacija predavanja:</Label>
+   <TextField editable="false" width=Titanium.UI.FILL id="lokacija" hintText="lokacija"></TextField>
+   <Label center="center">Čas predavanja:</Label>
+   <TextField editable="false" width=Titanium.UI.FILL id="ura" hintText="čas"></TextField>
+   <Label center="center">Datum predavanja:</Label>
+   <TextField editable="false" width=Titanium.UI.FILL id="datum" hintText="datum"></TextField>
+   <Label center="center">Vprašanja:</Label>
+   <!--link meni-->   
+  </View>
+  </ScrollView>
+ </Window>
+</Alloy>

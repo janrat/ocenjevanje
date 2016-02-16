@@ -1,0 +1,14 @@
+<Alloy>
+    <View id="mainView">
+        <View id="mainTopBar">
+            <View id="menuButton"/>
+        </View>				
+                <View id="pogled" >
+                	<Label id="naslov">Prijava na predavanje</Label> 
+      
+					<Label top="100dp"  center="center">Koda:</Label>
+					<TextField top="125dp" id="code" name="code" hintText="1234" color="white"></TextField>					
+					<Button width=Titanium.UI.FILL top="200dp" onClick="prijavi">Prijavi</Button>
+				</View>
+    </View>
+</Alloy>

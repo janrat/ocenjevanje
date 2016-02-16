@@ -1,0 +1,57 @@
+"#uporabnik": {
+    color: "#ffffff", // white
+    font:{fontSize: '20dp'}        
+},
+"#menuView":{
+	layout: 'vertical',
+	backgroundColor: 'blue'
+},
+"#menuTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#3D3D3D',
+	layout: 'horizontal'
+},
+".tableRow":{
+	height: '50dp'
+},
+"#rowContainer":{
+	height: '30dp',
+	layout:'horizontal'
+},
+".rowIcon":{
+	left: 5,
+	top: 7,
+	width: "20dp",
+	height: "20dp"
+},
+"#rowPredavanja":{
+	backgroundImage: '/note-2-24.png'
+},
+"#rowPrijava":{
+	backgroundImage: '/add-list-24.png'
+},
+"#rowDodaj":{
+	backgroundImage: '/plus-5-24.png'
+},
+"#rowUredi":{
+	backgroundImage: '/gear-24.png'
+},
+"#rowOdjava":{
+	backgroundImage: '/logout-24.png'
+},
+".rowLabel":{
+	top: 7,
+	left: 10,
+	height: "20dp",
+	font:{
+		fontSize: "15dp"
+	},
+	color: "#000"
+	
+},
+".menuTable":{
+	separatorStyle:'NONE',
+	separatorColor: 'transparent',
+	backgroundColor:'#F2F2F2'
+}

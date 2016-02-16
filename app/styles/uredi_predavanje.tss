@@ -1,0 +1,8 @@
+
+".container" : {
+  
+},
+'View': {
+ backgroundImage: '/images/ozadje.png'
+ //backgroundColor: "orange"
+}

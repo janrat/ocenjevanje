@@ -1,0 +1,1 @@
+$.uporabnik.value = Ti.App.Properties.getString('username');

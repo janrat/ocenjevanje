@@ -1,0 +1,24 @@
+<Alloy>
+	<Window class="container" id="registracija" center="center">
+		<View layout="vertical">
+			<!--naslov-->
+			<Label class="heading" center="center">Registracija</Label>
+			<!--ime-->
+			<Label center="center" >Ime:</Label>
+			<TextField width=Titanium.UI.FILL id="ime" name="ime" hintText="Ime" color="white"></TextField>
+			<!--priimek-->
+			<Label center="center">Priimek:</Label>
+			<TextField width=Titanium.UI.FILL id="priimek" name="priimek" hintText="Priimek" color="white"></TextField>
+			<!--uporabniško ime-->
+			<Label center="center">Uporabniško ime:</Label>
+			<TextField width=Titanium.UI.FILL id="username" name="username" hintText="Uporabniško ime" color="white"></TextField>
+			<!--geslo-->
+			<Label center="center" >Geslo:</Label>
+			<TextField width=Titanium.UI.FILL id="password" name="password" hintText="Geslo" passwordMask="true" color="white"></TextField>
+			<!--registracija-->
+			<Button width=Titanium.UI.FILL top="20" onClick="register">Registriraj me!</Button>
+			<!--prijava-->
+			<Button width=Titanium.UI.FILL top="40" onClick="nazaj">Nazaj na prijavo</Button>			
+		</View>
+	</Window>
+</Alloy>
